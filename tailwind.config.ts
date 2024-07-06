@@ -8,6 +8,7 @@ export default {
         primary: "#007BFF",
         secondary: "#868EBB",
         accent: "#EEE8A9",
+        helper: "#FFC65F",
       },
       fontFamily: {
         montserrat: "Montserrat, sans-serif", // Adds a new `font-display` class

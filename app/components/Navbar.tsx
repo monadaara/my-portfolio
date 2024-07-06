@@ -2,11 +2,12 @@ import { Link } from "@remix-run/react";
 
 export default function Navbar() {
   return (
-    <nav className="  flex justify-between items-center p-4">
-      <div className="text-xl font-bold w-10">
+    // #FFF8DC
+    <nav className="  flex justify-between items-center bg-secondary text-white rounded-xl  py-3 px-5">
+      <div className="text-xl font-bold w-16  flex items-center">
         <svg
           width="80"
-          height="30"
+          height="40"
           viewBox="0 0 334 129"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -17,20 +18,20 @@ export default function Navbar() {
           />
         </svg>
       </div>
-      <div className="flex space-x-6">
-        <Link to="#" className="hover:text-blue-400">
+      <div className="flex space-x-6 ">
+        <Link to="#" className="hover:text-accent text-base">
           Home
         </Link>
-        <Link to="#about" className="hover:text-blue-400">
+        <Link to="#about" className="hover:text-accent text-base">
           About
         </Link>
-        <Link to="#projects" className="hover:text-blue-400">
+        <Link to="#projects" className="hover:text-accent text-base">
           Projects
         </Link>
-        <Link to="#services" className="hover:text-blue-400">
+        <Link to="#services" className="hover:text-accent text-base">
           Exprience
         </Link>
-        <Link to="#resume" className="hover:text-blue-400">
+        <Link to="#resume" className="hover:text-accent text-base">
           Blogs
         </Link>
       </div>
